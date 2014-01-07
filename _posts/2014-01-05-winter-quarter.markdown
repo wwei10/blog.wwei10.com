@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "新学期"
 date:   2014-01-05 23:30:00
 categories: jekyll update

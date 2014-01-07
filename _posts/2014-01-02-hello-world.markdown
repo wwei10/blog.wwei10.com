@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Hello, World!"
 date:   2014-01-02 11:29:00
 categories: Thoughts
