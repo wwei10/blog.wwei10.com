@@ -1,0 +1,75 @@
+---
+layout: post
+comments: true
+title:  First Course in HCI
+date:   2014-01-06 23:19:00
+categories: design
+---
+
+没了leetcode oj还有点小空虚==，这样不好。。于是今天就开始继续实现MyMalloc的坑。Malloc的实现在yelp面试的时候被问到了，我非常二的回答用bit vector来记录每个byte是否是free的，太fine-grained了。
+```c
+struct node {
+    struct node *next;
+    struct node *prev;
+    int size;
+    unsigned char *buffer;
+};
+```
+
+后来才意识到用一个链表进行分配就不会有这个问题了。
+
+今天因为指针加减浪费了不少时间，切记呐切记。de完这个bug还差coalescing没有实现，所谓coalescing就是free一个block的时候，如果和它相邻的block也是free的，就要把他们合并起来，待我思考一下怎样实现比较优雅。
+
+# HCI
+
+今天上了human computer iteraction导论的第一节课，这节课的主题是[needfinding](http://hci.stanford.edu/courses/cs147/2014/lectures/cs147-2014-01-intro-needfinding.pdf). [Assignment 1](http://hci.stanford.edu/courses/cs147/2014/assignments/assignment01.html)感觉羞耻度略高，大牛学长说第一节课听完就退了果然是有道理的。。
+
+虽然assignments有点扯，但这课说的一些观点我还是很赞同，以下是一些notes。
+
+## design -> implementation -> evaluation -> design -> ...
+
++ 假设每个美国人每天因为bad design（wifi连不上之类）花了10分钟，那么加起来就是3,000,000,000 minutes
++ [Michael Bernstein](http://hci.stanford.edu/msb/)说新技术是一回事，人们愿意用新技术是另一回事。以计算机为例，说计算机真正流行还是因为gui的出现。
++ Tools for local hill climbing vs. Avoiding local optima.
+  + 这点说的很对，有很多startup的产品很好，但没人用，有可能就是因为他们只是局部优化了一下，而没有think out of the box.
+
+## "You can observe a lot just by watching"
+
++ Tacit knowledge: deep hanging out.
++ Process vs. Practice
+  + 例：call center中服务最好的是在那儿工作时间最长的，第二好的是坐在最好的旁边工作的。这个例子似乎很符合我得经历，我在每个阶段都会把身边的一个人当做榜样来学习，结果和榜样还是有差距但没有想象中的那么大。如果真是这样，把我扔到最优秀的人旁边我就第二优秀了？首先，如果我不够优秀我是不会被安排到最优秀的人身边工作的。。其次，就算去了，也是人外有人。但这个例子对我还是很有启示意义的，也许智商的作用并没有那么大，我这个类型就要当好apprentice，从师傅那里把知识技术都学过来。
++ Apprentice，很有启示意义，就按原样摆在这里了：
+  + Set up a partnership with the people to be observed
+  + Be taught the steps in the process
+  + Observe all of the practices
+  + Validate what you are observing with those observed as you go along
+
+但是，Observation alone does not guarantee a great design.
+
+## What Are Good Questions
+
+### Bad Questions
+
++ "Is the daily update an important feature to you?" [binary question]
++ "Would you like stores with less clutter?"
++ "What would you like in a tool?"
++ "What they would do / like / want in hypothetical scenarios?"
++ "How often they do things" [be concrete]
+
+这些坏问题要么是有引导性，要么是不够具体可能得不到确切的答案。
+
+要避免这些问题那该怎么办呢？
+
+### Conducting An Interview
+
++ 介绍自己，解释目的
++ 记住interview是关于他们，而不是你自己！
++ 从开放性问题入手
++ 问问题，让他们回答，有时候你的沉默会让他们说出更多更真实的想法
++ 注意follow up
++ 有计划是好的，但也不能一味按照计划走。
+
+## Flare Then Focus
+
+先想非常多的idea然后在聚焦到少数几个上面！
+
