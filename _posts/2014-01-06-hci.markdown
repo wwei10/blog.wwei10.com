@@ -7,6 +7,7 @@ categories: design
 ---
 
 没了leetcode oj还有点小空虚==，这样不好。。于是今天就开始继续实现MyMalloc的坑。Malloc的实现在yelp面试的时候被问到了，我非常二的回答用bit vector来记录每个byte是否是free的，太fine-grained了。
+
 ```c
 struct node {
     struct node *next;
