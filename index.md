@@ -1,4 +1,5 @@
 ---
+title: Wei Wei
 layout: home
 avatar: true
 ---
