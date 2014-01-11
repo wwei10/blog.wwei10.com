@@ -1,6 +1,6 @@
 ---
 layout: post
-comment: true
+comments: true
 title: "交大小聚"
 date: 2014-01-10 01:06:00
 categories: thoughts

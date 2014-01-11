@@ -1,3 +1,15 @@
+/*--------------------
+*
+* Tweak Jekyll's original theme by changing the fonts.
+*
+* ------------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Galdeano);
+@import url(http://fonts.googleapis.com/css?family=Electrolize);
+@import url(http://fonts.googleapis.com/css?family=Cuprum);
+
+*{padding:0;margin: 0;border:none;outline:none;}
+
 /*****************************************************************************/
 /*
 /* Common
@@ -12,11 +24,11 @@
 
 html, body { height: 100%; }
 
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+body{
+  font-size: 14px;
+  font-family: "Galdeano", "Hiragino Sans GB", "Microsoft YaHei", Trebuchet, "Trebuchet MS", Tahoma, "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 /*****************************************************************************/
@@ -113,7 +125,17 @@ body {
 /*
 /*****************************************************************************/
 
+.post {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.post h1, .post h2, .post h3, .post h4 {
+  padding: .5em 0;
+}
+
 /* standard */
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -151,8 +173,6 @@ body {
 /*
 /*****************************************************************************/
 
-@import url(http://fonts.googleapis.com/css?family=Galdeano);
-
 img {
   max-width: 100%;
   height: auto;
@@ -172,20 +192,9 @@ p img {
   -moz-box-shadow: 0 1px 3px #ccc;
 }
 
-body {
-  font-family: Galdeano,"Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
-  font-size: 15px;
-  line-height: 30px;
-  color: #555;
-  background-color: #fff;
-  margin: 0;
-}
 
 p {
-  font-size: 15px;
-  line-height: 30px;
-  color: #555;
-  margin: 0 0 15px;
+  padding: .5em 0;
 }
 
 a {
@@ -203,28 +212,56 @@ p a {
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 60px;
+  font-family: "Cuprum", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 1.6em;
+  color: #000;
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 60px;
+  font-family: "Cuprum", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 1.4em;
+  color: #111;
 }
 
 h3 {
-  font-size: 18px;
-  line-height: 45px;
+  font-family: "Cuprum", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 1.2em;
+  color: #222;
 }
 
-ul li {
-  font-size: 15px;
-  color: #555;
-  margin: 0 0 15px;
+h4 {
+  font-family: "Cuprum", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: 1em;
+  color:#333;
+}
+
+pre, code {
+  font-family: Menlo, "Andale Mono", Consolas, "Courier New", Monaco, monospace;
+  font-size: 13px;
+}
+
+code {
+  background-color: #F7F7F7;
 }
 
 blockquote {
-  border-left: 5px solid #eee;
-  margin: 0 0 30px;
-  padding: 0 0 0 15px;
+  display: block;
+  text-align: justify;
+  border-left: 4px solid #eeeeee;
+}
+
+blockquote {
+  margin: 1em 0em;
+  padding-left:1.5em;
+}
+
+blockquote p {
+  margin: 0;
+  padding: .5em 0;
+}
+
+header {
+  padding: .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #cccccc;
 }
