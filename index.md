@@ -5,7 +5,7 @@ avatar: true
 ---
 
 I'm a graduate student in Department of Computer Science in [Stanford
-University](http://www.stanford.edu/). Currently, I am looking for a summer internship. I love computer networking which make the world amazing. I have published one paper in IEEE ICC 2013 once and I am more than happy to go to Budapest to attend the conference. I love C because it is simple. I love Python because I love the [philosophy](http://www.python.org/dev/peps/pep-0020/). I'm a big fan of [github](https://github.com/weiweicse) and I start to put all my code online. I love Vim and I am not that into Emacs. I love Chrome and it extension [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) is really great. I love LaTeX.
+University](http://www.stanford.edu/). Currently, I am looking for a summer internship. I love computer networking which makes the world amazing. I have published one paper in IEEE ICC 2013 once and I am more than happy to go to Budapest to attend the conference. I love C because it is simple. I love Python because I love the [philosophy](http://www.python.org/dev/peps/pep-0020/). I'm a big fan of [github](https://github.com/weiweicse) and I start to put all my code online. I love Vim and I am not that into Emacs. I love Chrome and it extension [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en) is really great. I love LaTeX.
 
 Currently I am in the Mobile and Internet Computing track and here are the classes I have taken in Stanford:
 
