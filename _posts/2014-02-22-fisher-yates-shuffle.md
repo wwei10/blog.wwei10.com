@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Fisher-Yates Shuffle"
-date:   2014-02-20 01:21:00
+date:   2014-02-22 22:22:00
 categories: Programming
 ---
 
