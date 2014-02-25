@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Fisher-Yates Shuffle"
 date:   2014-02-22 22:22:00
-categories: Programming
+categories: Chinese Programming
 ---
 
 上个星期面试被问了一道random permutation的题目：
