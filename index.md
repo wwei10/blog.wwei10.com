@@ -21,8 +21,4 @@ Now I am taking:
 + CS246: Mining Massive Data Sets
 + CS246H: Mining Massive Data Sets: Hadoop Labs
 
-> Nothing in this world can take the place of persistence.
-
-这是魏炜的个人主页。2013年9月开始在斯坦福大学计算机系学习。喜欢计算机网络，曾在数据中心网络方面灌水中一篇文章，并去布达佩斯玩了一圈。喜欢简洁的C/C++，喜欢Python，非常喜欢github，并打算以后写代码都push到github上。喜欢学习新事物，现在在学习Haskell感受一下函数式编程。比较宅，没事的时候喜欢上bilibili，看海贼王，玩炉石传说，最爱咆哮德！
-
-> 天道酬勤
+这是魏炜的个人主页。2013年9月开始在斯坦福大学计算机系学习。喜欢计算机网络，曾在数据中心网络方面灌水中一篇文章，并去布达佩斯玩了一圈。喜欢简洁的C/C++，喜欢Python，非常喜欢github，并打算以后写代码都push到github上。喜欢学习新事物，现在在学习Haskell感受一下函数式编程。比较宅，没事的时候喜欢上bilibili，看海贼王，玩炉石传说！
