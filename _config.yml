@@ -1,3 +1,5 @@
 name: Wei Wei
+description: Wei Wei's Blog
+url: http://www.wwei2.com
 markdown: redcarpet
 pygments: true
