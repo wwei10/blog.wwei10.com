@@ -1,5 +1,12 @@
-name: Wei Wei
-description: Wei Wei's Blog
-url: http://www.wwei2.com
-markdown: redcarpet
-pygments: true
+# Site settings
+title: Wei's Blog
+email: wwei2@outlook.com
+description: "Simplicity is the ultimate sophistication."
+baseurl: ""
+url: "http://wwei2.com"
+twitter_username: weiweicse
+github_username: wweiw
+
+# Build settings
+markdown: kramdown
+permalink: pretty
