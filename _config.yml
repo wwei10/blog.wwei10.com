@@ -8,5 +8,5 @@ twitter_username: weiweicse
 github_username: wweiw
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
