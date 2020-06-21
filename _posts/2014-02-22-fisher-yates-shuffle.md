@@ -5,16 +5,16 @@ date:   2014-02-22 22:22:00
 categories: Chinese Programming
 ---
 
-上个星期面试被问了一道random permutation的题目：
+Last week, I was asked about random permutation in an interview:
 
 ```
-给定一个序列，设计一个算法返回一个random
-permutation，要求每个permutation被返回的概率是一样的。
+given a sequence，design an algorithm to return a random
+permutation. Each permutation should have equal chance of being returned.
 ```
 
-当时我就不知所措，答了一种错误的算法，面试官让我证明我的算法的正确性，我推导了下，发现自己的算法是错误的。这是我第一次被要求在面试时做数学证明。
+I gave my solution and was asked to prove my algorithm was correct. However during my proof, I found my algorithm was wrong. This was my first time doing a mathematical proof in an interview.
 
-回来后，我发现了Fisher-Yates shuffle这个算法：
+At home, I found the solution to this problem (Fisher-Yates Shuffle)
 
 ```
 To shuffle an array A of n elements (indices 0 .. n-1):
@@ -23,12 +23,15 @@ To shuffle an array A of n elements (indices 0 .. n-1):
         exchange a[j] and a[i]
 ```
 
-为什么这个算法能保证每个permutation被返回的概率都是一样的呢？
+We can easily prove that robability of i at position 0: `1 / n`.
 
-如果经过Fisher-Yates算法，A[i]停留在i这个位置上的概率是1/n，我们就可以保证每个permutation被返回的概率是一样的。
+To prove probability of i at position 1 is `1 / n`. We have two cases.
 
-最简单的情况，对于A[0]，A[0]还留在位置0的概率是1/n。
+```
+P[i at position 1]
+= P[i not selected in 0] * P[i switched with 1]
+= (n - 1) / n * 1 / (n - 1)
+= 1 / n
+```
 
-对于A[1]，A[1]留在位置1的发生的情况的条件是A[0]没有和A[1]交换，且A[1]和自己交换，这个事件发生的概率是```(n - 1) / n * 1 / (n - 1) = 1 / n```。
-
-同理，对于之后的所有元素A[i]留在i位置的概率都是```1 / n```。
+We can generalize this further to prove `P[i at position j] = 1 / n`.
