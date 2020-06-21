@@ -1,12 +1,10 @@
 # Site settings
 title: Wei's Blog
-email: wwei2@outlook.com
-description: "Simplicity is the ultimate sophistication."
+description: "My 1% Rule Journal"
 baseurl: ""
-url: "http://wwei2.com"
-twitter_username: weiweicse
-github_username: wweiw
+url: "http://blog.wwei10.com"
+github_username: wwei10
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
