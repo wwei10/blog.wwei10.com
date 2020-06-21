@@ -2,7 +2,7 @@
 layout: post
 title:  "Fisher-Yates Shuffle"
 date:   2014-02-22 22:22:00
-categories: Chinese Programming
+categories: Programming
 ---
 
 Last week, I was asked about random permutation in an interview:
