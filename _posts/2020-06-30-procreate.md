@@ -12,9 +12,9 @@ Since youtube started recommended a lot of procreate videos recently, I decided 
 
 Here are drawings from last week, enjoy!
 
-<img src="/assets/IMG_0040.jpg" alt="Mountains and Moon" width="400"/>
-<img src="/assets/IMG_0041.jpg" alt="Bunny" width="400"/>
-<img src="/assets/IMG_0046.jpg" alt="Watermelon" width="400"/>
-<img src="/assets/IMG_0047.jpg" alt="Cactus" width="400"/>
-<img src="/assets/IMG_0048.jpg" alt="Cactus 2" width="400"/>
-<img src="/assets/Snail.jpg" alt="Snail" width="400"/>
+<img src="/assets/IMG_0040.jpg" alt="Mountains and Moon" class="responsive" width="700"/>
+<img src="/assets/IMG_0041.jpg" alt="Bunny" class="responsive" width="700"/>
+<img src="/assets/IMG_0046.jpg" alt="Watermelon" class="responsive" width="700"/>
+<img src="/assets/IMG_0047.jpg" alt="Cactus" class="responsive" width="700"/>
+<img src="/assets/IMG_0048.jpg" alt="Cactus 2" class="responsive" width="700"/>
+<img src="/assets/Snail.jpg" alt="Snail" class="responsive" width="700"/>

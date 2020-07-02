@@ -348,6 +348,7 @@ a:visited { color: #205caa; }
     clear: both;
   }
 
+  img.responsive { width: 400px }
 }
 
 @media screen and (max-width: 600px) {
@@ -406,5 +407,7 @@ a:visited { color: #205caa; }
     clear: both;
     width: auto;
     margin: 0 0 15px; }
+
+  img.responsive { width: 300px }
 
 }
