@@ -1,19 +1,20 @@
 ---
 layout: post
-title:  "Programming Starfields"
+title:  "如何用P5JS实现星空效果"
 date:   2020-06-29 18:00:00
 categories: Programming
 ---
 
-A lot of people have seen starfields from [star wars](https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg) and it looks so cool. As one of my daily programming challenges, I decided to take it up.
+星球大战影片开始和结束的时候都会有很酷的[星空效果](https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-14.jpg) 最近想学学Javascript，于是就动脑筋解决一下如何用程序画出来星空图。
 
 
-Basic idea: 
-1. Randomly generating 400 stars' `(x, y)` from range `[-200, 200]`.
-2. Pick `z` value for each star from `[0, 200]`.
-3. Draw `(x / z * 200, y / z * 200)` every few frames and update `z -= 1`.
+基本想法：
+1. 随机生成400个星星的坐标 `(x, y)` x和y取值于 `[-200, 200]`
+2. 对于每颗星星生成 `z`，范围也是`[0, 200]`
+3. 对于每一帧中的每一个星星，在 `(x / z * 200, y / z * 200)`画一个点
+4. 每一帧结束更新`z -= 1`
 
-Assume we picked `x = 10`, `y = 10`, `z = 100`:
+举个例子来方便讨论，假设初始值是 `x = 10`, `y = 10`, `z = 100`，那么之后十帧的数据是这样的：
 - `z = 100` => `(20, 20)`
 - `z = 99` => `(20.2, 20.2)`
 - `z = 98` => `(20.4, 20.4)`
@@ -25,18 +26,17 @@ Assume we picked `x = 10`, `y = 10`, `z = 100`:
 - `z = 20` => `(100, 100)`
 - `z = 10` => `(200, 200)`
 
-This trick ensured that
-- At the beginning, `(x, y)` is close to the origin.
-- As time goes by, `(x, y)` speeds up when it is close to the edge.
+这个方法的好处是，刚开始的时候每个星星靠近原点，随着时间流逝，星星加速向外运动。
 
-This is how it looks like:
+
+
 <div id="js-holder"></div>
 
-The source code in [github](https://gist.github.com/wwei10/441f8d96d22dbe04679f205888918c33) and feel free to play with it [p5js editor](https://editor.p5js.org).
+源代码在 [github](https://gist.github.com/wwei10/441f8d96d22dbe04679f205888918c33)。可以复制粘贴到 [p5js editor](https://editor.p5js.org)里面玩一玩。
 
-**Credit**
-- Got original idea from [this awesome youtube video](https://www.youtube.com/watch?v=17WoOqgXsRM). 
-- Got help from [this example](https://raw.githubusercontent.com/KevinWorkman/HappyCoding/gh-pages/examples/p5js/_posts/2018-07-04-fireworks.md) to inject javascript into jekyll post.
+**鸣谢**
+-  这个[youtube](https://www.youtube.com/watch?v=17WoOqgXsRM)视频提到了这个coding challenge。推荐一下这个频道，经常会有很有趣的coding challenge和idea。
+- 从[这个例子](https://raw.githubusercontent.com/KevinWorkman/HappyCoding/gh-pages/examples/p5js/_posts/2018-07-04-fireworks.md) 学习了如何在jekyll博客里插入JS。
 
 
 <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>

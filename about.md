@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi there, my name is 魏炜 (WEI WEI). I am an engineer at Facebook working on Instagram ads delivery infrastructure.
+我是魏炜，Instagram ads的一名工程师。之前有幸在Stanford，上海交大学习。
 
-I aim to follow the 1% rule and I will put my journal here. Topics will include but not limited to programming languages, productivity hacks, technical projects, etc.
+这里的内容会覆盖我编程学习的经历，职业成长的反思，生活琐事等等。争取自己每天能进步一点点！
+
+个人百科的地址：[https://docs.wwei10.com](https://docs.wwei10.com)

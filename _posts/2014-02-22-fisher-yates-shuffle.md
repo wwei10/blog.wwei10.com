@@ -23,7 +23,7 @@ To shuffle an array A of n elements (indices 0 .. n-1):
         exchange a[j] and a[i]
 ```
 
-We can easily prove that robability of i at position 0: `1 / n`.
+We can easily prove that probability of i at position 0: `1 / n`.
 
 To prove probability of i at position 1 is `1 / n`. We have two cases.
 
