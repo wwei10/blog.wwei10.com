@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fisher-Yates Shuffle"
+title:  "面试与Fisher-Yates Shuffle算法"
 date:   2014-02-22 22:22:00
 categories: Programming
 ---
