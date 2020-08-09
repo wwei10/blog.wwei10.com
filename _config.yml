@@ -4,6 +4,7 @@ description: "My 1% Rule Journal"
 baseurl: ""
 url: "http://blog.wwei10.com"
 github_username: wwei10
+instagram_username: wwei10
 
 # Build settings
 markdown: kramdown
