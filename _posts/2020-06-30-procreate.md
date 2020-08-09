@@ -1,16 +1,32 @@
 ---
 layout: post
-title:  "Learning Digital Paintings"
+title:  "Deep Work与心流"
 date:   2020-06-30 22:00:00
 categories: arts
 ---
 
-Recently finished reading [Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692). One point that stuck with me from the book is the concept of [flow state](https://www.youtube.com/watch?v=fXIeFJCqsPs). Flow state generally means more happiness (people will want to continue doing what they are working on and forget about eating and drinking) together with more achievement (hyperfocus yields higher productivity). Finding
-things that I can enter flow state is one area I am focusing on. Entering flow state with debugging, coding, playing games is relatively easy for me. However I want to develop more hobbies.
+最近读了[Deep Work](https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/1455586692)这本书。其中很吸引人的一个点是[心流](https://www.youtube.com/watch?v=fXIeFJCqsPs)。Deep work强调专注的工作更容易进入心流状态，不光更快乐，也会更有成就一起随之而来的成就感。
 
-Since youtube started recommended a lot of procreate videos recently, I decided to learn to create things with procreate app. Luckily, it's relatively easy to enter flow state for me with drawing, maybe it is challenging enough and my skill is at a level where I enjoy my work! (sweet spot!)
+进入心流有三个条件：
+1. 问题有挑战，但又不会过度困难，也不会过度简单。自己的技巧水平应和挑战难度匹配。这样做事情会比较有成就感。
+2. 即时反馈，随时知道自己的进度，明确知道差距在哪儿，应该向哪里努力。
+3. 自信能完成，或知道自己努力加油就有可能完成。（这和第一点有重合）
 
-Here are drawings from last week, enjoy!
+好的游戏设计就创造了上述条件：
+1. 游戏允许玩家调整难度，不会让游戏过程太难或太简单。玩家技巧和挑战的匹配让进入心流变得简单。
+2. 反馈很明显速度也很快。打怪能给经验能给装备。投入时间，用适当的技巧，不断的尝试，一般都能摸索出来前进的道路。
+3. 游戏是肯定能通过的，大家都是很有自信的。最差情况就调整游戏等级，上网查攻略，或者一直打怪升级，总有解决问题的一天。
+
+如果工作，生活里的方方面面能够游戏化的话，想必生活工作都将更快乐，也更有效率。Habitica就是一个把习惯养成变得游戏化的一个软件应用。概念是相当有趣的。关于游戏化，之后有机会再多聊聊我这方面的思考。
+
+在工作中，前六个月里一直尝试的是减少会议的数量，把回复email的时间，workchat的时间集中到一起，批量处理，节省下来的时间就可以进行深度工作。
+
+在生活中，我最近的一个重心就是寻找能让我进入心流状态的工作领域亦或是兴趣爱好。Debug，写代码，玩游戏是我比较容易进入心流状态的几件事情。但我想拓宽下视野，探索下更多的领域。
+
+重拾了下画画这个爱好，小时候曾经被夸画画好。自己最爱画的是潜艇飞机一类的东西，还记得看了[海底两万里](https://zh.wikipedia.org/wiki/冒險少女娜汀亞)动画片后，模仿了不少里面的潜艇设计。画画一旦开始也是根本停不来的节奏。youtube上有很多不错的procreate app的视频资料，教怎么画动物的毛，怎么画极简风格的风景画等等。
+
+
+以下是我的作品，还有一些发到了[IG](https://www.instagram.com/stories/highlights/17866881796889420/)上，请欣赏。
 
 <img src="/assets/IMG_0040.jpg" alt="Mountains and Moon" class="responsive" width="700"/>
 <img src="/assets/IMG_0041.jpg" alt="Bunny" class="responsive" width="700"/>
