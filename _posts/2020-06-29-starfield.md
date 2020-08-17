@@ -43,7 +43,7 @@ categories: Programming
 
 **附录：用p5js画Lorenz System**
 
-再贴一个[lorenz system](https://en.wikipedia.org/wiki/Lorenz_system)的图，也挺漂亮的！我这里选择的参数是蝴蝶效应对应的那个图。
+再贴一个[lorenz system](https://en.wikipedia.org/wiki/Lorenz_system)的图，也挺漂亮的！我这里选择的参数是蝴蝶效应对应的那个图。微小的起始量的改动也会极大的影响后续走势。可以耐心等待下，一开始红线和蓝线还挺接近的，一起在画🦋翅膀，看到最后这两条线就会脱离蝴蝶区域，在脱离那一刻他们的差距就开始显现了！然而他们初始值其实只差了十的五次方！
 
 <p class="codepen" data-height="500" data-theme-id="light" data-default-tab="js,result" data-user="wwei10" data-slug-hash="WNwxvxd" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CodePen JavaScript Console Template">
   <span>See the Pen <a href="https://codepen.io/wwei10/pen/WNwxvxd">
