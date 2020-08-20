@@ -41,7 +41,7 @@ categories: Programming
 - 从[这个例子](https://raw.githubusercontent.com/KevinWorkman/HappyCoding/gh-pages/examples/p5js/_posts/2018-07-04-fireworks.md) 学习了如何在jekyll博客里插入JS。**更新：后来改用codepen.io的嵌入js代码，感觉更方便。因为一个p5js有不少global的东西，如果想在一个页面上加载两个p5js画布需要修改代码。**
 
 
-**附录：用p5js画Lorenz System**
+**附录1：用p5js画Lorenz System**
 
 再贴一个[lorenz system](https://en.wikipedia.org/wiki/Lorenz_system)的图，也挺漂亮的！我这里选择的参数是蝴蝶效应对应的那个图。微小的起始量的改动也会极大的影响后续走势。一开始红蓝两线重合，后来就分叉了。这也可以作为1% rule的解读，每天如果进步一点点，长久以来的优势积累是巨大的。
 
@@ -51,4 +51,12 @@ categories: Programming
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+**附录2: 用p5js画烟花**
+
+<p class="codepen" data-height="786" data-theme-id="light" data-default-tab="js,result" data-user="wwei10" data-slug-hash="PoNGBoJ" style="height: 786px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Fireworks">
+  <span>See the Pen <a href="https://codepen.io/wwei10/pen/PoNGBoJ">
+  Fireworks</a> by Wei (<a href="https://codepen.io/wwei10">@wwei10</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
 
