@@ -1,0 +1,4 @@
+baseURL = "https://blog.wwei10.com/"
+languageCode = "en-us"
+title = "Wei's Blog"
+theme = "ananke"
