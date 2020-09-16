@@ -1,23 +1,17 @@
 ---
-layout: post
 title: "原子习惯"
 date: 2020-07-02 15:00:00
-categories: Reading Productivity Chinese
-permalink: /posts/atomic-habits
 discourse: 13
 ---
 
 最近读了原子习惯（atomic habits），受了不少启发。尤其是WFH期间，习惯的重要性变得越发重要，想和大家分享一下我的得到。
 
+
+<!--more-->
+
 ## 习惯的四要素
 
-<img
-  src='/assets/atomic-habits.png'
-  alt="Atomic Habits"
-  class="responsive"
-  width="700"
-  style="border-radius: 25px"
-/>
+![Atomic Habits](/images/atomic-habits.png)
 
 下面举我自己的例子具体说说这四个要素。
 
@@ -33,13 +27,7 @@ discourse: 13
 
 ## 改变习惯的四个法则
 
-<img
-  src="/assets/atomic-habits-laws.png"
-  alt="Atomic Habits"
-  class="responsive"
-  width="700"
-  style="border-radius: 25px"
-/>
+![Atomic Habits](/images/atomic-habits-laws.png)
 
 想改变习惯，就要抓住习惯四要素中的一点或几点来做调整。
 
@@ -73,13 +61,8 @@ discourse: 13
 
 习惯日志是个让人获得满足感的好办法。市面上app很多，试过streaks，habitica，最终还是觉得用纸+bullet journal的形式最合我胃口。贴个我的习惯日志供大家参考。
 
-<img
-  src="/assets/habit-tracker.jpg"
-  alt="Habit Tracker"
-  class="responsive"
-  width="700"
-  style="border-radius: 25px"
-/>
+![Atomic Habits](/images/habit-tracker.jpg)
+
 
 ## 后记
 

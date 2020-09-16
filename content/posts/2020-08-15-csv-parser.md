@@ -1,15 +1,15 @@
 ---
-layout: post
 title: "如何快速处理CSV文件"
 date: 2020-08-15 17:16:00
-categories: Programming Chinese
-permalink: /posts/how-to-processing-csv-efficiently
 discourse: 18
 ---
 
 最近领导碰到了个有趣的问题：处理csv文件。原来接触csv文件的时候都是直接用`split(',')`就搞定了，这次的问题稍稍复杂了些。
 
 首先是，逗号可以存在于引号之间，其次是引号里面也可以存在引号，前提是两个引号一块儿出现。最关键的是这个csv文件还非常大（大约250M），每行有很多column。
+
+
+<!--more-->
 
 例子：`1999,Chevy,"Venture ""Extended Edition, Very Large""",,5000.00`。第一项1999，第二项Chevy，第三项Venture "Extended Edition, Very Large"，第四项空，第五项5000.00。
 
@@ -57,7 +57,7 @@ public static ArrayList<String> parseLineV2(String line) {
 
 第三个思路是不去匹配符合规则的逗号，而是直接去匹配符合规则的csv的每一列。这个方法的缺点就是需要好好画画状态机，挺容易出错的。（mermaid-js用来画图很方便！）
 
-<img src="/assets/state-machine.png" alt="State Machine" class="responsive" width="700"/>
+![状态机](/images/state-machine.png)
 
 代码的话相对简单，switch case加if else就好了。
 

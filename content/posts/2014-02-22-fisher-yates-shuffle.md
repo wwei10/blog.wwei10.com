@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "Fisher-Yates Shuffle"
+title: Fisher-Yates Shuffle
+linktitle: fisher-yates-shuffle
 date: 2014-02-22 22:22:00
-categories: Programming English
-permalink: /posts/fisher-yates-shuffle
+description: How to return a random permutation given an array of integers?
 discourse: 17
 ---
 
-Last week, I was asked about random permutation in an interview:
+Last week, I was asked about random permutation in an interview.
+
+<!--more-->
 
 ```
 given a sequence，design an algorithm to return a random

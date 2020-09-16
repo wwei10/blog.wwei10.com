@@ -1,13 +1,12 @@
 ---
-layout: post
 title: "搭建博客 - 从Jekyll到Gin"
 date: 2020-08-23 14:00:00
-categories: Programming Chinese
-permalink: /posts/how-i-setup-blog-part1
 discourse: 20
 ---
 
 这两天自己还是想更端到端的了解网站，学习下更多前端后端，网络，运维知识，于是就开始琢磨自己怎么搭建个网站。
+
+<!--more-->
 
 ## Jekyll -> ?
 
@@ -26,13 +25,7 @@ discourse: 20
 
 我大概考虑下面几个框架，如下图。最终基于自己对golang的兴趣（虽然对Rust兴趣最高[1]），相对熟悉golang开发，性能高等优势，决定入了golang [Gin](https://gin-gonic.com)框架的坑。
 
-<img
-  src="/assets/web-frameworks.png"
-  alt="Web框架比拼"
-  class="responsive"
-  width="700"
-  style="border-radius: 25px"
-/>
+![Web Frameworks](/images/web-frameworks.png)
 
 
 ## Jekyll -> Gin!
@@ -77,8 +70,8 @@ discourse: 20
 
 这次建站体验还不错，时间比我预想的短不少，下一周继续玩玩这个网站。
 
-- [ ] Code syntax highlighting还不支持，需要再研究下怎么搞。可能是在blackfriday里加个renderer也有可能会用Javascript解决问题。
-- [ ] 之后还想再试试react js，实现个markdown editor功能，方便在网页里编程。
+- [X] Code syntax highlighting还不支持，需要再研究下怎么搞。可能是在blackfriday里加个renderer也有可能会用Javascript解决问题。
+- [X] 之后还想再试试react js，实现个markdown editor功能，方便在网页里编程。
 
 ----
 

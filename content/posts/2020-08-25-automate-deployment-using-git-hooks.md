@@ -1,13 +1,12 @@
 ---
-layout: post
 title: "搭建博客 - 自动化部署"
 date: 2020-08-25 17:00:00
-categories: Programming Chinese
-permalink: /posts/automate-deployment-using-git-hooks
 discourse: 21
 ---
 
-这两天每次修改下网站，就要手动做一系列事情。让人有点受不了，于是开始上网搜索有哪些自动化的方法。
+这两天每次修改下网站，就要手动做一系列事情。让人有点受不了，于是开始上网搜索有哪些自动化的方法，最后决定使用git hooks方便部署网站。
+
+<!--more-->
 
 ## 繁琐的部署流程
 
