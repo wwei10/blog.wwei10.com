@@ -1,6 +1,6 @@
 baseURL = "https://blog.wwei10.com/"
 languageCode = "en-us"
-title = "魏炜"
+title = "Wei Wei"
 theme = "minimalist"
 
 DefaultContentLanguage = "en"
@@ -24,6 +24,8 @@ hasCJKLanguage = true
 	facebook = ""
 
 	enableRSS = true
+	RSSLink = "https://feedburner.google.com/fb/a/mailverify?uri=wwei10/blog&amp;loc=en_US"
+
 	enableToc = false
 
 	enableDisqus = false
