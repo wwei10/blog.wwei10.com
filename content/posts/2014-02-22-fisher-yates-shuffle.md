@@ -1,10 +1,8 @@
 ---
-layout: post
 title: Fisher-Yates Shuffle
-linktitle: fisher-yates-shuffle
 date: 2014-02-22 22:22:00
-description: How to return a random permutation given an array of integers?
 discourse: 17
+slug: fisher-yates-shuffle
 ---
 
 Last week, I was asked about random permutation in an interview.

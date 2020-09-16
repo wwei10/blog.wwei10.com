@@ -2,6 +2,7 @@
 title: "原子习惯"
 date: 2020-07-02 15:00:00
 discourse: 13
+slug: atomic-habits
 ---
 
 最近读了原子习惯（atomic habits），受了不少启发。尤其是WFH期间，习惯的重要性变得越发重要，想和大家分享一下我的得到。

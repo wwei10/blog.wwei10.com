@@ -2,6 +2,7 @@
 title: "如何快速处理CSV文件"
 date: 2020-08-15 17:16:00
 discourse: 18
+slug: how-to-processing-csv-efficiently
 ---
 
 最近领导碰到了个有趣的问题：处理csv文件。原来接触csv文件的时候都是直接用`split(',')`就搞定了，这次的问题稍稍复杂了些。
