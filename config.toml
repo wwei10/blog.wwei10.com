@@ -28,10 +28,10 @@ hasCJKLanguage = true
 
 	enableToc = false
 
-	enableDisqus = false
-	disqusShortname = ""
+	enableDisqus = true
+	disqusShortname = "weis-blog-2"
 
-	enableDiscourse = true
+	enableDiscourse = false
 
 
 	enableSummary = true
