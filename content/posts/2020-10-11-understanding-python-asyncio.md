@@ -112,7 +112,9 @@ async def coro():
     return await helper()
 ```
 
-## An Example
+## An Example 
+
+### Non-Blocking Sleep
 
 With generators, async / await, and event loops, now we can combine all these to implement a simple asyncio like library with non-blocking sleep ability!
 
@@ -129,6 +131,10 @@ Full code here:
 
 
 To enable more asyncio functionalities (handle network I/O, file I/O), the process would be pretty similar, we will create non-blocking version of calls and yield control to scheduler when coroutine is blocked, schedule will poll each I/O source to see if network has new I/O, file has new I/O and schedule coroutines accordingly.
+
+### Exercise: how would you implement Asyncio.gather
+
+I will leave an exercise to the readers around how to implement asyncio.gather like API. Remember, assume we have coroutine A which calls gather, what gather does is basically adding several tasks (**with callbacks**) into event loops, mark A as waiting. Important thing is the `callback`, once all tasks finished, the callback will need to update the result inside coroutine A, and mark A as ready.
 
 ## Conclusions
 
