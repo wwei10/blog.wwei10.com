@@ -1,7 +1,6 @@
 ---
 title: "原子习惯"
 date: 2020-07-02 15:00:00
-discourse: 13
 slug: atomic-habits
 ---
 

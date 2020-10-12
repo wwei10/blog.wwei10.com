@@ -1,7 +1,6 @@
 ---
 title: "如何快速处理CSV文件"
 date: 2020-08-15 17:16:00
-discourse: 18
 slug: how-to-processing-csv-efficiently
 ---
 

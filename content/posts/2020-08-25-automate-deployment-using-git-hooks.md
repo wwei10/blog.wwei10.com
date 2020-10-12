@@ -1,7 +1,6 @@
 ---
 title: "搭建博客 - 自动化部署"
 date: 2020-08-25 17:00:00
-discourse: 21
 slug: automate-deployment-using-git-hooks
 ---
 

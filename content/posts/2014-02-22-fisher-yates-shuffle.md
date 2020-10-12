@@ -1,7 +1,6 @@
 ---
 title: Fisher-Yates Shuffle
 date: 2014-02-22 22:22:00
-discourse: 17
 slug: fisher-yates-shuffle
 ---
 

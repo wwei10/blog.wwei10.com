@@ -1,7 +1,6 @@
 ---
 title: 服务器端渲染 vs 客户端渲染
 date: 2020-09-15
-discourse: 23
 slug: csr-vs-ssr
 ---
 
