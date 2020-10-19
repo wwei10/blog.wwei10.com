@@ -26,7 +26,7 @@ hasCJKLanguage = true
 	enableRSS = true
 	RSSLink = "https://feedburner.google.com/fb/a/mailverify?uri=wwei10/blog&amp;loc=en_US"
 
-	enableToc = false
+	enableToc = true
 
 	enableDisqus = true
 	disqusShortname = "weis-blog-2"
