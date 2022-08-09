@@ -1,7 +1,7 @@
 baseURL = "https://blog.wwei10.com/"
 languageCode = "en-us"
 title = "Wei Wei"
-theme = "minimalist"
+theme = "mini"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
@@ -44,7 +44,7 @@ hasCJKLanguage = true
 	# Set the value to your baidu analysis code if you want to use baidu analytics
 	baiduAnalytics = 'your_baidu_analysis_code'
 
-	enableTwitterCard = true
+	enableTwitterCard = false
 	# The url for twitter card image, default is avatar.png in static/images directory
 	twitterCardImage = ""
 
@@ -82,13 +82,6 @@ hasCJKLanguage = true
 	iconFont = "font-awesome"
   # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
   socialIconStyle = ""
-
-
-# Add additional social link entries underneath
-[social]
-	facebook-square = "https://www.facebook.com/wwei10"
-	twitter-square = "https://www.twitter.com/weiweicse"
-	github-square = "https://www.github.com/wwei10"
 
 
 [markup.goldmark.renderer]
