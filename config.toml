@@ -16,19 +16,19 @@ hasCJKLanguage = true
   filename = "sitemap.xml"
 
 [params]
-	author = "Wei Wei"
+	author = "Wei"
 	description = "Wei's Blog"
 	bio = "Engineer at Instagram"
 
 	twitter = ""
 	facebook = ""
 
-	enableRSS = true
+	enableRSS = false
 	RSSLink = "https://feedburner.google.com/fb/a/mailverify?uri=wwei10/blog&amp;loc=en_US"
 
 	enableToc = true
 
-	enableDisqus = true
+	enableDisqus = false
 	disqusShortname = "weis-blog-2"
 
 	enableDiscourse = false
@@ -39,7 +39,7 @@ hasCJKLanguage = true
 	useDescriptionReplaceSummary = false
 
 
-	enableGoogleAnalytics = true
+	enableGoogleAnalytics = false
 	enableBaiduAnalytics = false
 	# Set the value to your baidu analysis code if you want to use baidu analytics
 	baiduAnalytics = 'your_baidu_analysis_code'
